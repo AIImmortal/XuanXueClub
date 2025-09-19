@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "build": "./node_modules/.bin/hugo --minify"
+    },
+    "dependencies": {
+        "hugo-extended": "latest"
+    }
+}
