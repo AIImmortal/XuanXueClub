@@ -1,0 +1,93 @@
+{
+   "baseURL": "https://xuanxue.club/",
+   "languageCode": "zh-cn",
+   "title": "玄学社",
+   "theme": "hugo-theme-stack",
+   "permalinks": {
+      "page": "/:slug/",
+      "post": "/:slug/"
+   },
+   "params": {
+      "favicon": "/favicon.ico",
+      "article": {
+         "math": true,
+         "readingTime": false,
+         "toc": true
+      },
+      "sidebar": {
+         "subtitle": "玄之又玄，众妙之门",
+         "avatar": {
+            "enabled": true,
+            "local": true,
+            "src": "img/xuan.png"
+         }
+      },
+      "widgets": {
+         "homepage": [
+            {
+               "type": "search"
+            },
+            {
+               "type": "categories"
+            },
+            {
+               "type": "tag-cloud"
+            }
+         ],
+         "page": [
+            {
+               "type": "toc"
+            }
+         ]
+      }
+   },
+   "menu": {
+      "main": [
+         {
+            "identifier": "home",
+            "name": "主页",
+            "url": "/",
+            "weight": -100,
+            "params": {
+               "icon": "home",
+               "newTab": false
+            }
+         },
+         {
+            "identifier": "search",
+            "name": "搜索",
+            "url": "/search",
+            "weight": -60,
+            "params": {
+               "icon": "search",
+               "newTab": false
+            }
+         }
+      ],
+      "social": [
+         {
+            "identifier": "github",
+            "name": "GitHub",
+            "url": "https://github.com/AIImmortal/XuanXueClub",
+            "params": {
+               "icon": "brand-github"
+            }
+         }
+      ]
+   },
+   "related": {
+      "includeNewer": true,
+      "threshold": 60,
+      "toLower": false,
+      "indices": [
+         {
+            "name": "tags",
+            "weight": 100
+         },
+         {
+            "name": "categories",
+            "weight": 200
+         }
+      ]
+   }
+}
