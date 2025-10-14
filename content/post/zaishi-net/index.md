@@ -1,7 +1,7 @@
 +++
 title = "在世AI"
 slug="zaishi-net"
-date = "2025-10-05"
+date = "2025-09-20"
 categories = [
     "AI玄学工具"
 ]

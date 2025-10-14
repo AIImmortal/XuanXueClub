@@ -1,7 +1,7 @@
 +++
 title = "准了"
 slug="zhunle"
-date = "2025-09-21"
+date = "2025-09-20"
 categories = [
     "AI玄学工具"
 ]
