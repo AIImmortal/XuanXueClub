@@ -1,7 +1,7 @@
 {
    "baseURL": "https://xuanxue.club/",
    "languageCode": "zh-cn",
-   "title": "玄学社",
+   "title": "玄学社-周易bot旗下玄学研究平台",
    "theme": "hugo-theme-stack",
    "permalinks": {
       "page": "/:slug/",
@@ -61,6 +61,16 @@
             "params": {
                "icon": "search",
                "newTab": false
+            }
+         },
+         {
+            "identifier": "zhouyibot",
+            "name": "周易bot",
+            "url": "https://zhouyi.bot/",
+            "weight": -50,
+            "params": {
+               "icon": "robot",
+               "newTab": true
             }
          }
       ],
