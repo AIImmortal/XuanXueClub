@@ -16,11 +16,7 @@
       },
       "sidebar": {
          "subtitle": "玄之又玄，众妙之门",
-         "avatar": {
-            "enabled": true,
-            "local": true,
-            "src": "img/xuan.png"
-         }
+         "avatar": "img/xuan.png"
       },
       "widgets": {
          "homepage": [
