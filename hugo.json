@@ -3,7 +3,6 @@
    "languageCode": "zh-cn",
    "title": "玄学社-周易bot旗下玄学研究平台",
    "theme": "hugo-theme-stack",
-   "hasCJKLanguage": true,
    "permalinks": {
       "page": "/:slug/",
       "post": "/:slug/"
